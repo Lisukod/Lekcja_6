@@ -82,8 +82,9 @@ while check:
     else:
         print("Błędna nazwa operacji")
 
-if check:
-    print(saldo)
+# if check:
+#     print(saldo)
 
-for index, log in enumerate(logs):
-    print("{}. {}".format(index, log))
+# for index, log in enumerate(logs):
+#     print("{}. {}".format(index, log))
+
