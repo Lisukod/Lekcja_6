@@ -112,7 +112,6 @@ while check:
                             print("{}".format(log_element))
         else:
             printOut(logs)
-
         logs.append("stop")
         print(logs[-1])
         break
