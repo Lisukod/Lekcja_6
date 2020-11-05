@@ -1,15 +1,15 @@
 from sys import argv
 
 saldo = 0
+check = True
 logs = []
 storehouse = {}
-check = True
 
 def saldo_fun(temp_saldo, comment):
     global saldo
     saldo += temp_saldo
     logs.append(("saldo", temp_saldo, comment))
-    
+
 def buy_fun(product_id, unit_price, product_amount):
     global saldo, check
     if saldo - unit_price*product_amount < 0:
